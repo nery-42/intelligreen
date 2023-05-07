@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./icon/iconn.ico">
+	<title>Intelligreen</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<div class="navbar">
+			<div class="nav-item" onclick="showDiv1()"><a href="#">Inicio</a></div>
+			<div class="nav-item" onclick="showDiv2()"><a href="#">Acerca de</a></div>
+			<div class="nav-item" onclick="showDiv3()"><a href="#">Servicios</a></div>
+			<div class="nav-item" onclick="showDiv4()"><a href="#">Contacto</a></div>
+		</div>
+		<h2>Soluciones para la vida rural</h2>
+	</header>
+	<main>
+		<div class="colum">
+			<nav>
+				<ul>
+					<li><a href="#"><img src="./icon/instagram.png" alt="Instagram"></a></li>
+					<li><a href="#"><img src="./icon/twitter.png" alt="Instagram"></a></li>
+					<li><a href="#"><img src="./icon/tiktok.png" alt="Instagram"></a></li>
+					<li><a href="#"><img src="./icon/telephone-plus.png" alt="Instagram"></a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="div1">
+		<div id="Div1" style="">
+			<h2>Esto es Intelligrenn</h2>
+			<p>Breve contenido en el cual desarrollammos los puntos en los cuales proponemos soluciones.</p>
+		</div>
+		<div id="Div2" style="display: none">
+			<h2>¿De dónde surge?</h2>
+			<p>El proyecto surge por derivadas razones</p>
+		</div>
+		<div id="Div3" style="display: none">
+			<h2>Multiples opciones</h2>
+			<p>Un resumen de los servicios recopilados</p>
+		</div>
+		<div id="Div4" style="display: none">
+			<h2>Contacto</h2>
+			<p>Estos son los puntos de comunicación e información</p>
+		</div>
+		</div>
+		<div class="brand">Intelligreen</div>
+		<!-- Aquí puedes agregar el contenido principal de tu página -->
+		<div class="container">
+			<div class="item" onclick="openPage('./casas.html')">
+				Casas
+			</div>
+			<div class="item" onclick="openPage('./comunidad.html')">
+				Comunidad
+			</div>
+			<div class="item" onclick="openPage('./comarcas.html')">
+				Comarcas
+			</div>
+			<div class="item" onclick="openPage('./eventos.html')">
+				Eventos
+			</div>
+		</div>
+		<footer>
+			<!-- Aquí puedes incluir tu pie de página -->
+			<p>&copy; 2023 INTELLIGREEN. Todos los derechos reservados.</p>
+		</footer>
+</body>
+
+</html>
