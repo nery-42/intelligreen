@@ -1,10 +1,25 @@
-# <a href="https://nery-42.github.io/intelligreen/">Intelligreen</a>
+# <a href="https://nery-42.github.io/intelligreen/">Boceto Web en vivo Intelligreen</a>
+
+El desarrollo de la Web no esta finalizado.
 
 Este repositorio contiene el código fuente de Intelligreen, un sitio web de código abierto que ofrece soluciones para la vida rural. El proyecto está construido con HTML, CSS y JavaScript.
 
 ## Documentación
 
+En la carpeta Documentación econtrarán adjuntados todos los documentos necesarios para entender el proyecto.
+
+Encontrarán:
+
+<ul>
+  <li>Plan de Empresa</li>  
+  <li>Borrador Ideas</li>  
+  <li>Desarrollo</li>  
+  <li>Presentación</li>  
+ </ul>
+
+El enlace a uno de los formatos de la presentación sería este:
 <a href="https://intelligreen.my.canva.site/">Presentación</a>
+
 
 ## Características
 
