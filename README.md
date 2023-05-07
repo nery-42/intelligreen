@@ -2,6 +2,10 @@
 
 Este repositorio contiene el código fuente de Intelligreen, un sitio web de código abierto que ofrece soluciones para la vida rural. El proyecto está construido con HTML, CSS y JavaScript.
 
+## Documentación
+
+<a href="https://intelligreen.my.canva.site/">Presentación</a>
+
 ## Características
 
 - Navegación: El sitio cuenta con una barra de navegación en la parte superior que permite acceder a diferentes secciones, como "Inicio", "Acerca de", "Servicios" y "Contacto". Al hacer clic en cada elemento de la barra de navegación, se muestra el contenido correspondiente en la sección principal.
@@ -15,7 +19,6 @@ Este repositorio contiene el código fuente de Intelligreen, un sitio web de có
 - Sección de contenidos: Debajo de la barra de navegación, se encuentra una sección de contenido principal con diferentes elementos. Cada elemento representa una categoría (como "Casas", "Comunidad", "Comarcas" y "Eventos"), y al hacer clic en ellos se abre una nueva página en una pestaña del navegador.
 
 - Pie de página: En la parte inferior de la página, se muestra un pie de página que indica los derechos de autor y la propiedad de Intelligreen.
-
 
 ## Uso
 
