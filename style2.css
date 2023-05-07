@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+body {
+	background-image: url("./jpeg/pueblo1.jpg");
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	color: beige;
+	overflow-x: hidden;
+  }
+  
+  .container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+ 
