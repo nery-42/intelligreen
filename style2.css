@@ -4,9 +4,15 @@
 	box-sizing: 0;
 }
 
+main div {
+	max-width: 600px;
+	margin-bottom: 20px;
+  }
+
 body {
 	background-image: url("./jpeg/pueblo1.jpg");
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
 	font-family: Arial, sans-serif;
 	color: beige;
 	overflow-x: hidden;
