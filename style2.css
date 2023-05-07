@@ -82,3 +82,57 @@ body {
 	transform: scale(1.2); /* Aumento del tamaño de la etiqueta */;
   }
 /*fin de nav*/
+
+/**/
+
+footer {
+	position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: auto;
+        text-align: left;
+        padding: auto;
+}
+
+/*Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+	.container {
+	  flex-direction: column;
+	  height: auto;
+	  padding: 10px;
+	}
+  
+	.item {
+	  margin-bottom: 10px;
+	  max-width: 100%;
+	  padding: 10px;
+	}
+  
+	.item img {
+	  height: auto;
+	}
+  
+	.image-text {
+	  padding: 5px;
+	}
+
+	.brand {
+		position: static;
+		margin-bottom: 10px;
+	  }
+  }
+  
+  @media (max-width: 480px) {
+	.item {
+	  font-size: 24px;
+	}
+  }
+  
+  @media (max-width: 320px) {
+	.item {
+	  font-size: 20px;
+	}
+  }
+
+/**/

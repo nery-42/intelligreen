@@ -8,7 +8,7 @@
 	display: flex;
 	justify-content: space-between;
 	padding: auto;
-	max-width: 50%;
+	max-width: 900px;
 	background-color: rgba(103, 95, 86, 0.5);
 	margin: 0 auto;
 }
@@ -190,3 +190,43 @@ footer {
         text-align: left;
         padding: auto;
 }
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+	.container {
+	  flex-direction: column;
+	  height: auto;
+	  padding: 10px;
+	}
+  
+	.item {
+	  margin-bottom: 10px;
+	  max-width: 100%;
+	  padding: 10px;
+	}
+  
+	.item img {
+	  height: auto;
+	}
+  
+	.image-text {
+	  padding: 5px;
+	}
+
+	.brand {
+		position: static;
+		margin-bottom: 10px;
+	  }
+  }
+  
+  @media (max-width: 480px) {
+	.item {
+	  font-size: 24px;
+	}
+  }
+  
+  @media (max-width: 320px) {
+	.item {
+	  font-size: 20px;
+	}
+  }
