@@ -79,6 +79,14 @@
 	opacity: 85%;
 }
 
+h1 {
+	text-align: center; /* Centra el texto horizontalmente */
+	position: absolute; /* Habilita el posicionamiento absoluto */
+	top: 10%; /* Mueve el elemento hacia abajo un 50% de su contenedor */
+	left: 50%; /* Centra el elemento horizontalmente */
+	transform: translate(-50%, -50%); /* Ajusta la posición vertical y horizontalmente */
+  }
+
 h2 {
 	text-align: center;
 }
