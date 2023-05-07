@@ -26,3 +26,6 @@ function showDiv4(){
 function openPage(url) {
 	window.open(url, '_blank'); // Abre la URL en una nueva pestaña del navegador
 }
+function cargarPaginaInicio() {
+	window.location.href = "index.html";
+  }
