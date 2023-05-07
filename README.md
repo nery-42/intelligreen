@@ -42,4 +42,4 @@ Este proyecto fue desarrollado por lpalacio, afernan2, afelicia, marferre y nmel
 
 ## Licencia
 
-Este proyecto es de código abierto y libre uso
+Este proyecto es de código abierto y libre uso.
