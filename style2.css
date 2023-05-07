@@ -10,6 +10,7 @@ body {
 	font-family: Arial, sans-serif;
 	color: beige;
 	overflow-x: hidden;
+	overflow: hidden;
   }
   
   .container {
@@ -18,3 +19,66 @@ body {
 	padding: 20px;
   }
  
+  .brand {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	color: #a78164;
+	font-weight: bold;
+  }
+
+
+/*Columna lateral de nav*/
+
+.colum {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+  }
+  
+  .colum nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+  }
+  
+  .colum nav li {
+	margin-bottom: 10px;
+	transition: 0.3s ease-in-out;
+  }
+
+  .colum nav li:hover {
+	opacity: 60%;
+  transform: scale(1.2); /* Aumenta el tamaño del icono al poner el cursor sobre él */
+  
+  } 
+
+  .colum li a img {
+	width: 130%; /* Ajusta el ancho de la imagen */
+	height: 130%; /* Ajusta la altura de la imagen */
+}
+
+  .colum nav a {
+    border-radius: 10px 10px 5px 5px;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #333333;
+	transition: background-color 0.3s ease-in-out;
+  }
+  
+  .colum nav a i {	
+	margin-right: 5px;
+  }
+ 
+  .colum nav a:hover {
+	background-color: #ebebeb;
+  }
+  
+  .colum nav a:hover span {
+	transform: scale(1.2); /* Aumento del tamaño de la etiqueta */;
+  }
+/*fin de nav*/
