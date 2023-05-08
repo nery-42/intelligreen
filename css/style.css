@@ -99,7 +99,7 @@ h2 {
 }
 
 body {
-	background-image: url("./jpeg/pueblo1.jpg");
+	background-image: url("../jpeg/pueblo1.jpg");
 	background-size: cover;
 	font-family: Arial, sans-serif;
 	color: beige;
